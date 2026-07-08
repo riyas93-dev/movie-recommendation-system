@@ -16,4 +16,3 @@ A content-based movie recommendation engine built with Python and Streamlit. Thi
 
 ## 🧠 Technical Highlights
 * **Memory Optimization:** Reduced the pickled cosine similarity matrix size by 50% (from 176MB to 88MB) by downcasting the data type from `float64` to `float32`, allowing for seamless version control and faster application boot times on cloud servers.
-* **Secure Secrets Management:** Implemented environment variables via Streamlit Secrets to securely store API Bearer tokens, ensuring sensitive credentials are never exposed in the public source code.
